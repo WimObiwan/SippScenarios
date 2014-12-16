@@ -31,7 +31,7 @@ Free Software Foundation, Inc.,
       [last_To:];tag=[call_number]
       [last_Call-ID:]
       [last_CSeq:]
-      WWW-Authenticate: digest realm="sip.myforce.be", nonce="47ebe028cda119c35d4877b383027d28da013815"
+      WWW-Authenticate: digest realm="sip.obiwan.be", nonce="47ebe028cda119c35d4877b383027d28da013815"
     ]]>
   </send>
  
