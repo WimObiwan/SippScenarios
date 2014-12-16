@@ -2,7 +2,7 @@
 
 ### uas-REGISTER-auth.xml
 Server side handling of REGISTER, with authentication.
-Realm is "sip.obiwan.be".
+Realm is `sip.obiwan.be`.
 Any username/password will do.
 
 Example:
