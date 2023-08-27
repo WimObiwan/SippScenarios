@@ -100,7 +100,7 @@
 
       BYE sip:[$remote_contact] SIP/2.0
       Via: SIP/2.0/[transport] [local_ip]:[local_port]
-      From: sipp  <sip:sipp@[local_ip]:[local_port]>;tag=[pid]SIPpTag01[call_number]
+      From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=[pid]SIPpTag01[call_number]
       To: [$remote_from]
       Call-ID: [call_id]
       Cseq: 2 BYE
@@ -110,7 +110,7 @@
     ]]>
   </send>
 
-  <recv response="200" crlf="true">
+  <recv response="200" crlf="true" />
 
   <!-- Keep the call open for a while in case the 200 is lost to be     -->
   <!-- able to retransmit it if we receive the BYE again.               -->
